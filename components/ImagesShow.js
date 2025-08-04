@@ -46,7 +46,7 @@ function ImagesShow({ images }) {
                 <div>
                   <Link
                     href='/home'
-                    className=' bg-primary-200 px-4 py-2 text-primary-100 text-2xl hover:bg-primary-300 transition-all animate-pulse'
+                    className=' bg-primary-200 px-4 py-2 text-primary-100 text-2xl hover:bg-primary-300 transition-all animate-pulse font-light rounded-lg uppercase'
                   >
                     try
                   </Link>
