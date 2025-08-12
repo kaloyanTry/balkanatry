@@ -18,12 +18,12 @@ export default async function Home() {
       </Suspense>
 
       <section className='flex flex-col mt-12 px-2 items-center justify-center'>
-        <h1 className='text-9xl text-center text-primary-200 font-semibold max-sm:text-3xl'>
+        <h1 className='text-9xl text-center text-primary-300 font-semibold max-sm:text-6xl'>
           BalkanaTry WebApp
         </h1>
 
         <article className='flex flex-col mx-auto mt-4 items-center justify-center'>
-          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-lg'>
+          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-3xl'>
             Goal
           </h2>
           <blockquote className='block text-3xl text-center text-accent-300 px-2 pt-2 max-sm:text-lg font-light'>
@@ -56,7 +56,7 @@ export default async function Home() {
         </article>
 
         <article className='flex flex-col mx-auto mt-8 items-center justify-center'>
-          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-lg'>
+          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-3xl'>
             Activities
           </h2>
           <blockquote className='block text-3xl text-center text-accent-300 px-2 pt-2 max-sm:text-lg font-light'>
@@ -82,7 +82,7 @@ export default async function Home() {
         </article>
 
         <article className='flex flex-col mx-auto mt-8 items-center justify-center'>
-          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-lg'>
+          <h2 className='text-center text-8xl pt-8 font-normal text-primary-200 max-sm:text-3xl'>
             Values
           </h2>
           <blockquote className='block text-3xl text-center text-accent-300 px-2 pt-2 max-sm:text-lg font-light'>
