@@ -18,7 +18,7 @@ function ProjectItem({ project }) {
         </h3>
       </article>
 
-      <article className='flex relative w-auto max-w-[2000px] h-screen max-h-[60vh] my-8 rounded-sm'>
+      <article className='flex relative w-auto max-w-[2000px] h-screen max-h-[70vh] my-8 rounded-sm'>
         <Image
           src={image}
           fill

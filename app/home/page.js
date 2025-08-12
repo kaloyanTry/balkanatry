@@ -17,8 +17,8 @@ export default async function Home() {
         <HomeImagesShow images={images} />
       </Suspense>
 
-      <section className='flex flex-col mt-12 px-2 items-center justify-center'>
-        <h1 className='text-9xl text-center text-primary-300 font-semibold max-sm:text-6xl'>
+      <section className='flex flex-col my-12 px-2 items-center justify-center'>
+        <h1 className='text-9xl text-center text-primary-200 font-semibold max-sm:text-6xl'>
           BalkanaTry WebApp
         </h1>
 

@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className='flex flex-col mx-auto relative h-auto min-h-[70vh] scroll-smooth md:scroll-auto items-center'>
-      <h1 className='text-4xl px-4 text-center font-semibold text-primary-300 my-8'>
+    <main className='flex flex-col mx-auto items-center w-full h-screen justify-center'>
+      <h1 className='text-6xl max-sm:2xl px-2 font-semibold text-primary-300 text-center'>
         Sign in to access your explorations&apos; area
       </h1>
 

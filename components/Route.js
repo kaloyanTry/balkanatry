@@ -152,8 +152,13 @@ function Route({ route }) {
         </span>
       </article>
 
-      <article className='flex my-4 justify-center mx-2'>
+      <article className='flex flex-col my-4 justify-center mx-2'>
         <GpxViewer gpxUrl={sourceGpxFile} />
+        <p className='text-primary-300 text-lg font-normal text-center'>
+          <span className='font-semibold text-accent-300'>Note:</span> The
+          elevation profile image is automatically generated and may contain
+          inaccurate information.
+        </p>
       </article>
     </main>
   );
