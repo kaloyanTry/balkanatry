@@ -43,7 +43,7 @@ function Route({ route }) {
 
     if (
       checkSuits.length > 8 &&
-      checkSuits.length <= 15 &&
+      checkSuits.length <= 16 &&
       checkSuits.includes('hiking')
     ) {
       result = '🏃‍➡️ + 🚶';
