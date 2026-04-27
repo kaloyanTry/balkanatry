@@ -23,7 +23,7 @@ async function RoutePage({ params }) {
   const exploredTimes = plannedExplorations.length;
 
   return (
-    <main className='flex flex-col mx-auto my-4'>
+    <main className='flex flex-col items-center justify-center my-4'>
       <Suspense fallback={<Spinner />}>
         <Route route={route} />
       </Suspense>
@@ -65,7 +65,7 @@ async function RoutePage({ params }) {
                     {' '}
                     {format(
                       new Date(exploration.startDate),
-                      'EEE, dd MMM yyyy'
+                      'EEE, dd MMM yyyy',
                     )}{' '}
                     (past event){' '}
                   </span>
@@ -73,7 +73,7 @@ async function RoutePage({ params }) {
                   <span className='bg-primary-100'>
                     {format(
                       new Date(exploration.startDate),
-                      'EEE, dd MMM yyyy'
+                      'EEE, dd MMM yyyy',
                     )}{' '}
                     (future event){' '}
                   </span>
