@@ -76,7 +76,7 @@ function Route({ route }) {
 
   return (
     <main className='flex flex-col mx-auto'>
-      <article className='relative w-screen h-[80vh] left-1/2 -translate-x-1/2 my-4'>
+      <article className='relative w-screen h-[80vh] mx-auto my-4'>
         <Image
           src={image}
           fill
