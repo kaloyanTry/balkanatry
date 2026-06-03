@@ -88,13 +88,13 @@ function Route({ route }) {
       </article>
 
       <article className='flex flex-col px-2 items-center'>
-        <div className='flex my-12 justify-center'>
+        <div className='flex my-12 justify-center' mx-4>
           <h1 className=' text-accent-300 text-8xl font-semibold max-sm:text-4xl'>
             {title}
           </h1>
         </div>
 
-        <div className='flex gap-2 my-2'>
+        <div className='flex gap-2 my-2 mx-4'>
           <h3 className='text-4xl text-accent-300 font-semibold max-sm:text-2xl'>
             Destination:{' '}
             <span className='font-bold text-primary-300'>{destination}</span>
